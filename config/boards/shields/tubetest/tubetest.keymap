@@ -17,10 +17,11 @@
         compatible = "zmk,combos";
 
         pairing_combo {
-            timeout-ms = <50>;
-            key-positions = <0 1>;  // Tecla 1 + Tecla 2
-            bindings = <&bt BT_CLR>;
-        };
+          timeout-ms = <50>;
+           key-positions = <0 1>;  // tecla 1 + tecla 2
+          bindings = <&bt BT_CLR>, <&bt BT_SEL 0>;
+};
+
 
         bootloader_combo {
             timeout-ms = <50>;
