@@ -19,7 +19,7 @@
         pairing_combo {
           timeout-ms = <50>;
            key-positions = <0 1>;  // tecla 1 + tecla 2
-          bindings = <&bt BT_CLR>, <&bt BT_SEL 0>;
+          bindings = <&bt BT_SEL 0>, <&bt BT_CLR>;
 };
 
 
